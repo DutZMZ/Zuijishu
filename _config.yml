@@ -1,7 +1,7 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
-url: "http://DutZMZ.github.io/Zuijishu"
+baseurl: "http://DutZMZ.github.io/Zuijishu"
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 
@@ -97,8 +97,8 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  #BASE_PATH : false
-  BASE_PATH : http://DutZMZ.github.io/Zuijishu
+  BASE_PATH : false
+  #BASE_PATH : http://DutZMZ.github.io/Zuijishu
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
