@@ -4,17 +4,15 @@ title: About Me
 header: About Me
 group: navigation
 ---
- * **Name:** 生活大爆炸
- * **Email:** [mingzhenzhao@126.com]
- * **WeiBo:** [新浪微博]
- * **Github:** [DutZMZ](https://github.com/DutZMZ)
- 
-{% highlight python %}
-@requires_authorization
-class SomeClass:
-    pass
+>#简介
+>* **Name:** 生活大爆炸
+>* **Email:** [mingzhenzhao@126.com](http://www.163.com)
+>* **WeiBo:** [暂无]
+>* **Github:** [DutZMZ](https://github.com/DutZMZ)
 
-if __name__ == '__main__':
-    # A comment
-    print 'hello world'
-{% endhighlight %}
+*********************
+
+>#致谢
+>* 模板：[simpleyyt](https://github.com/Simpleyyt/simpleyyt.github.io)
+>* Tag Cloud:[Jekyll-tagcloud](http://enrmarc.github.io/blog/Jekyll-tagcloud/)
+感谢以上项目的作者。
