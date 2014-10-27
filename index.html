@@ -23,7 +23,7 @@ group: home
 				<span class="teaser">{{ post.content  | split:'<!--more-->' | first }}
 				{% endcase %}
 				</span>
-				<span class="readmore"><a href="{{ post.url }}">Read More:{{ paginator.next_page_path }}</a></span>
+				<span class="readmore"><a href="{{ post.url }}">Read More</a></span>
 			</div>
 		</div>
 		<div class="clearboth"></div>
@@ -31,7 +31,7 @@ group: home
 	</div>
 	{% if paginator.next_page  %}
 	<div id="journal-arrows-cont">
-			<a href="{{ paginator.next_page_path }}" class="journal-arrow ja-forward"></a>
+			<a href="/Zuijishu{{ paginator.next_page_path }}" class="journal-arrow ja-forward"></a>
 	</div>
 	{% endif %}
 	<div class="clearboth"></div>
