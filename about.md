@@ -4,7 +4,7 @@ title: About Me
 header: About Me
 group: navigation
 ---
- * **Name:** Yitao Yao
- * **Email:** [simpleyyt@gmail.com](mailto:simpleyyt@gmail.com)
- * **WeiBo:** [摇一摇SimpleLife](http://www.weibo.com/u/1836017133)
- * **Github:** [Simpleyyt](https://github.com/Simpleyyt)
+ * **Name:** 生活大爆炸
+ * **Email:** [mingzhenzhao@126.com]
+ * **WeiBo:** [新浪]
+ * **Github:** [DutZMZ](https://github.com/DutZMZ)
