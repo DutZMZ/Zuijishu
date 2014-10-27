@@ -11,7 +11,14 @@
 				</div>
 			</div>
 			<div class="journal-body">
-				<h1 class="journal-title">{{ page.title }}<span class="author">{% if page.tagline %}{{page.tagline}}{% endif %}</span>
+				<h1 class="journal-title">
+				    {{ page.title }}
+				    <span class="author">
+				        {% if page.tagline %}{{page.tagline}}{% endif %}
+				        <p>
+				            <div class="journal-date">Published {{ page.date | date_to_long_string }}</div>
+				        </p>
+				    </span>
 				</h1>
 				<span class="the-article">
 				{{ content }}
