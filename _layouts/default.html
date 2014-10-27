@@ -6,14 +6,6 @@ Snail :
 ---
 {% include JB/setup %}
 <div class="page-title-inline">
-	{% if page.group == 'home' %}
-	<h2>{{ site.title }} ---</h2>
-	{% if site.tagline %}
-	    {{ site.intro }}
-	{% endif %}
-	{% else %}
-	<h1>{{ page.title }} </h1>
-	{% if page.tagline %}<h2>{{ page.tagline }}</h2>{% endif %}
-	{% endif %}
+	<h2>{{ site.title }} --</h2> {{ site.intro }}
 </div>
 {% include themes/Snail/default.html %}
