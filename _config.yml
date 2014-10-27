@@ -30,7 +30,7 @@ contact :
 # Links showed on the footer6
 #
 links :
-  Yitao's Blog : http://DutZMZ.github.io/
+  Blog : http://DutZMZ.github.io/Zuijishu
 
 # The search engine. Only support google custom search engine.
 #
@@ -128,11 +128,11 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : duoshuo
-    duoshuo :
-      short_name : simpleyyt
+    provider : zmz
+    zmz :
+      short_name : zmz
     disqus :
-      short_name : simpleyyt
+      short_name : zmz
     livefyre :
       site_id : 123
     intensedebate :
