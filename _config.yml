@@ -3,6 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 #baseurl: http://DutZMZ.github.io/Zuijishu
 url: http://DutZMZ.github.io
+projecturl: /Zuijishu
 #baseurl:/
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
