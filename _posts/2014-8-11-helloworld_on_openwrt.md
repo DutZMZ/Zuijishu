@@ -5,7 +5,7 @@ title: 交叉编译OpenWrt上的Helloworld
 tagline: by Snail
 tags: [open, embedded]
 ---
-终于编译完成了OpenWrt，并且成功交叉编译了Helloworld，并在Easy-Link的板子上运行。
+8终于编译完成了OpenWrt，并且成功交叉编译了Helloworld，并在Easy-Link的板子上运行。
 
 <!--more-->
 
