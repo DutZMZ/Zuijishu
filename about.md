@@ -9,7 +9,7 @@ group: navigation
  * **WeiBo:** [新浪微博]
  * **Github:** [DutZMZ](https://github.com/DutZMZ)
  
-```python
+{% highlight python %}
 @requires_authorization
 class SomeClass:
     pass
@@ -17,4 +17,4 @@ class SomeClass:
 if __name__ == '__main__':
     # A comment
     print 'hello world'
-```
+{% endhighlight %}
