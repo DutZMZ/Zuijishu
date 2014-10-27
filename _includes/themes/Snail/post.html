@@ -19,6 +19,8 @@
 				    </span>
 				</h1>
 				<span class="the-article">
+				{% assign tags_list = page.tags %}
+				{% include themes/Snail/tags_list %}
 				{{ content }}
 				</span>
 				<div class="journal-date">Published {{ page.date | date_to_long_string }}</div>
