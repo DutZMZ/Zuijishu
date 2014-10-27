@@ -1,4 +1,5 @@
 {% if tags_list.first[0] == null %}
+        标签：
 	{% for tag in tags_list %} 
 		<a class="tag-cont" href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">
 			<div class="tag-l"></div>
