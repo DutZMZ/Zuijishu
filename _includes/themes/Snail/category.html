@@ -2,6 +2,8 @@
 {% if category[0] == null %}
 <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref" title="{{ category }}">
 	{{ category }}
+<a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref" title="{{ category }}">
+	{{ category }}
 {% else %}
 <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref" title="{{ category[0] }}">
 	{{ category[0] }}
