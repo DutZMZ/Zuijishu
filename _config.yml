@@ -6,6 +6,9 @@ url: http://DutZMZ.github.io/Zuijishu
 #url: /
 #projecturl: /Zuijishu
 #baseurl:/
+lunr_search:
+  excludes: [rss.xml, atom.xml]
+  
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 
