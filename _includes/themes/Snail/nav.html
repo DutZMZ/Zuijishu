@@ -4,6 +4,7 @@
 	<div id="nav-c">
 		<ul id="nav-list" style="width: 700px;">
 			<li id="home"><a href="{{ HOME_PATH }}">Home</a></li>
+			<li id="home"><a href="{{ HOME_PATH }}">Home</a></li>
 			{% assign pages_list = site.pages %}
 			{% assign group = 'navigation' %}
 			{% for node in pages_list %}
@@ -16,7 +17,7 @@
 					<span class="nav-r-active"></span>
 					</li>
 					{% else %}
-					<li id = "{{node.title}}"><a href="{{ BASE_PATH }}{{node.url}}">{{ HOME_PATH }}{{node.title}}</a></li>
+					<li id = "{{node.title}}"><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
 					{% endif %}
 				  {% endif %}
 				{% endif %}
