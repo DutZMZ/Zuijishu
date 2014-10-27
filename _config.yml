@@ -11,8 +11,9 @@ markdown: kramdown
 
 # The title and tagline is showed on homepage
 #
-title : Zuijishu
+title : 醉技术最生活
 tagline: ZMZ Blog
+intro: 因为分享，所以快乐。
 
 # Information about author
 #
