@@ -23,7 +23,7 @@ group: home
 				<span class="teaser">{{ post.content  | split:'<!--more-->' | first }}
 				{% endcase %}
 				</span>
-				<span class="readmore"><a href="{{ post.url }}">Read More</a></span>
+				<span class="readmore"><a href="{{site.url}}{{ post.url }}">Read More</a></span>
 			</div>
 		</div>
 		<div class="clearboth"></div>
