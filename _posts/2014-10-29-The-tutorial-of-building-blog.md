@@ -1,5 +1,3 @@
-博客
-
 ---
 layout: post
 category: Jekyll
@@ -10,7 +8,7 @@ tags: [Jekyll, github]
 
 本博客主要是分享小z在搭建个人博客过程中一些的经历。小z是菜鸟一枚，在搭建博客的过程中走了一些弯路，当然也积累了一些经验，就此写在这里，希望本文对那些想搭建基于Jeykll和github个人博客的人们有所帮助，谢谢。
 
-
+<!--more-->
 
 ## 1. [Jekyll](http://jekyllcn.com/)
 
